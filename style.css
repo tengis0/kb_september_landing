@@ -169,10 +169,14 @@ main {
 
 .card p {
     color: rgba(255, 255, 255, 0.89);
+    overflow: hidden;
+    text-align: justify;
 }
 
 .card li {
     color: rgba(255, 255, 255, 0.89);
+    overflow: hidden;
+    text-align: justify;
 }
 
 .card em {
