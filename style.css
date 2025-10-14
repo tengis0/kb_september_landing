@@ -64,6 +64,11 @@ main {
     text-align: center;
 }
 
+.blur-background {
+    filter: blur(8px);
+    transition: filter 0.5s ease;
+}
+
 .notification {
     display: flex;
     align-items: center;
