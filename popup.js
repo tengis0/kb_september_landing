@@ -1,21 +1,12 @@
 window.addEventListener('DOMContentLoaded', () => {
     const popup = document.getElementById('popup');
+    const content = document.getElementById('main-content');
+
     popup.classList.add('show');
+    content.classList.add('blur-background');
 
     setTimeout(() => {
         popup.classList.remove('show');
-    }, 3000);
+        content.classList.remove('blur-background');
+    }, 3500);
 });
-
-
-//window.addEventListener('DOMContentLoaded', () => {
-//    const popup = document.getElementById('popup');
-//    const closeBtn = document.getElementById('closePopup');
-//
-//    // Show the popup every time the page loads
-//    popup.classList.add('show');
-//
-//    closeBtn.addEventListener('click', () => {
-//        popup.classList.remove('show');
-//    });
-//});
